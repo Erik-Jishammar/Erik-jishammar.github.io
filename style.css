@@ -1,4 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap');
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0  ;
+  box-sizing: border-box;
+
+}
+
 body{
   background-color: lightgrey;
+  background-image: URL("/skog-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  margin: auto;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+
+p {
+  color: black;
+  font-size:18px;
+  text-align: center;
+  font-family: 'Sigmar', sans-serif;
+
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+  
+  }
+    
+.bg-test{
+  border: 1px solid #333;
+  height: 250px;
+  width: 250px;
+  margin-bottom: 25px;
+}
+.hex{
+  background-color: #ff5733;
+
+}
+.rgb{
+  background-color: rgba(255, 87, 51, 0.5);
+}
+
+.hsl{
+  background-color: hsl(264, 100%, 49%);
+}
+.rgba{
+  background-color: rgba(50, 40, 10, 0.5);  
+}
+
+.linear-gradient{
+  background: linear-gradient(#000000 , #ffffff, #000000);
+}
+
+.radial-gradient{
+  background: radial-gradient(#000000 , #ffffff);
+}
+
+.my-list{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
 
 }
