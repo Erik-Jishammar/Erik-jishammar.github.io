@@ -85,7 +85,7 @@ nav a {
 
 .hero .cta {
     padding: 40px 60px;
-    background-color: #000000;
+    background-color: #42403d;
     color: #ffffff;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 25px;
@@ -107,9 +107,9 @@ nav a {
     padding: 0 20px;
     border: none;
     border-radius: 25px;
-    background-color: #3b3835;
+    background-color: #42403d;
     color: rgb(255, 255, 255);
-    opacity: 0.7;
+    
 }
 
 /* Produktfunktioner */
@@ -142,7 +142,7 @@ nav a {
 
 /* Order-/Kontaktformulär */
 .order-form {
-    background: #383422;
+    background: #363030;
     color: white;
     padding: 40px;
     border-radius: 25px;
